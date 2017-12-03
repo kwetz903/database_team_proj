@@ -1,1 +1,1 @@
-web: dbwebapp.py
+web: python dbwebapp.py
