@@ -1,1 +1,2 @@
-python_version = "2.7"
+bottle
+mysql-connector==2.1.4
