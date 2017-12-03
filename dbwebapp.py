@@ -160,8 +160,6 @@ def make_service_events(template_service, new_service_time):
     for row in service_records:
         new_service_id = row
 
-    print new_service_id
-
     #create service events
     cursor.execute("""
       INSERT INTO serviceevent (Service_ID, Seq_Num, EventType_ID, Confirmed)
