@@ -3,7 +3,7 @@ from mysql.connector import connect
 from datetime import datetime, timedelta
 import string 
 
-con = connect(user='root', password='Spring2017', database='wsoapp')
+con = connect(user='bbdc8f82937ad0', password='371dc33d', database='heroku_17bb6a6cff89403', host='us-cdbr-iron-east-05.cleardb.net')
 cursor = con.cursor()
 
 new_service_form = """<html>
